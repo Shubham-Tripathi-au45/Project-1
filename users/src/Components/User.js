@@ -29,7 +29,7 @@ useEffect(()=>{
 {
     users.map((arr)=>{
         return(
-            <div className='col-4'>
+            <div className='col-12 col-md-4'>
               <div className='card m-4 col-8' style={{width:"5 rem",height:"4 rem"}}>
                 <img src={arr.avatar_url} className="card-img-top" alt="/" width="100px"height="300px"/>
 
